@@ -12,7 +12,7 @@ client.on('message', msg => {
 });
 
 
-client.om('message',msg =>{
+client.on('message',msg =>{
   if(msg.content== 'merhaba nasılsın'){
     msg.reply('çok saol ben çok iyiyim ya sen ?')
   } 
